@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    height: 80px;
+    background-color:#ffff;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff38
+
+}
+.logo_home{
+    width: 53px;
+    height: 36px;
+    
+}
+
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: red;
+    padding: 30px 0;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid red;
+}
+.nav_bar a sup{
+    color: red;
+    font-size: 10px;
+}
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+
+    
+}
+
+.search_icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    font-weight: 700px;
+    background-color: rgb(243, 241, 238);
+    border-radius: 4px 0 0 4px;
+
+}
+
+.search_input{
+    color: rgb(240, 248, 255);
+    background-color: rgb(243, 241, 238);
+    flex-grow: 1;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.banner_container{
+    margin: 40px 0;
+}
+
+.banner_image{
+    width: 100%;
+}
+.banner_title{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item1{
+    width: 250px;
+
+}
+
+.footer_item{
+    height: 40px;
+    background-color: paleturquoise;
+    color: black;
+    text-align: center;
+    box-sizing: content-box;
+    line-height: 40px;
+    margin-top: 20px;
+}
+h6{
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
