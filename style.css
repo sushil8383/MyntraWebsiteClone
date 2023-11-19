@@ -5,7 +5,26 @@
     box-sizing: border-box;
 }
 
+@media (max-width:600px) {
+    header{ 
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    
+    }
 
+    .nav_bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1px;
+        } 
+    .action_bar{
+        margin: 10px 0;
+        
+    }
+    
+}
 
 header{
     display: flex;
@@ -75,6 +94,7 @@ header{
     flex-grow: 1;
     border: 0;
     border-radius: 0 4px 4px 0;
+    outline: none;
 }
 
 .action_bar{
